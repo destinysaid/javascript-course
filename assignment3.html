@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .upload-button {
+                background-color: green;
+                color: white;
+                padding: 8px 16px;
+                border: none;
+                border-radius: 4px;
+                transition: background-color 0.15s;    
+            }
+            .upload-button:hover {
+                background-color: rgb(2, 66, 2);
+            }
+            .live-button {
+                background-color: rgb(255, 0, 166);
+                color: rgb(255, 255, 255);
+                padding: 8px 16px;
+                border: none;
+                border-style: solid;
+                border-radius: 200px;
+                transition: height 0.15s, width 0.15s;
+            }
+            .live-button:hover {
+                padding: 12px 20px;
+                border-radius: 40px;
+            }
+            .edit-button {
+                background-color: rgb(24, 180, 237);
+                color: rgb(38, 0, 176);
+                padding: 8px 16px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgb(38, 0, 176);
+                border-radius: 4px;
+                transition: background-color 0.15s; 
+            }
+            .edit-button:hover {
+                background-color: rgb(38, 0, 176);
+                color: rgb(24, 180, 237);
+            }
+            .edit-button:active {
+                opacity: 0.7;
+            }
+        </style>
+    </head>
+
+    <body>
+        <button title="Upload your latest creation" class="upload-button" >UPLOAD</button>
+        <button title="Start a live stream" class="live-button">GO LIVE!</button>
+        <button title="Open editor mode" class="edit-button">Open Editor</button>
+    </body>
+</html>
