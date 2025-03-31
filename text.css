@@ -4,14 +4,6 @@ p {
     margin-bottom: 0px;
 }
 
-
-.space-grotesk-<uniquifier> {
-    font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
-
 .video-title {
     font-weight: 700;
     font-size: 18px;
