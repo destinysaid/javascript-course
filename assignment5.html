@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--In this assignment, you will be creating a simple text showing the value of an asset class, the percentage gain/loss, and its after hours trading value and gain/loss-->
+
+<html>
+    <head>
+        <title>assignment5</title>
+        <style>
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .asset {
+                font-size: 16px;
+                font-weight: 600;
+                color: rgb(17, 192, 255);
+                text-decoration: underline;
+                margin-bottom: 10px;
+            }
+
+            .asset-value {
+                margin-bottom: 10px;
+            }
+            .asset-price {
+                font-size: 32px;
+                font-weight: 500;
+            }
+
+            .asset-symbol {
+                color: rgb(129, 129, 129);
+                margin-left: 4px;
+            }
+
+            .asset-percent-change {
+                color: green;
+                margin-bottom: 10px;
+            }
+
+            .asset-afterhrs-value{
+                color: rgb(129, 129, 129);
+            }
+            
+            .asset-afterhrs-change {
+                color: red;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p class="asset">
+            Gold
+        </p>
+
+        <p class="asset-value">
+            <span class="asset-price">1,049.61</span> <span class="asset-symbol">USD</span>
+        </p>
+
+        <p class="asset-percent-change">
+            &#43;18.05 (1.75&#37;) today
+        </p>
+
+        <p class="asset-afterhrs">
+            <span class="asset-afterhrs-value">After hours 1,048.00</span> <span class="asset-afterhrs-change">-1.61 (0.15%)</span>
+        </p>
+    </body>
+</html>
