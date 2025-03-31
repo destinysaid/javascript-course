@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube.com clone</title>
+        <style>
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .thumbnail {
+                display: block;
+                width: 100%;
+                max-width: 400px;
+                object-fit: cover;
+                border: 2px;
+                border-radius: 1rem;
+                border-color: none;
+            }
+
+            .search-bar {
+                font-size: 20px;
+                font-weight: 500;
+                padding: 12px 0px 12px 12px;
+                border-radius: 0.5rem;
+                border: 2px solid rgb(217, 216, 219);
+                color: rgb(198, 211, 206);
+            }
+
+            .search-bar::placeholder {
+                color: rgb(191, 191, 191);
+                font-weight: 500;
+                font-style: normal;
+            }
+            
+        </style>
+    </head>
+    
+    <body>
+        <input class="search-bar" type="text" placeholder="Search">
+
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+        
+        <p class="video-body">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+        </p>
+
+        <p class="video-author">
+            Marques Brownless
+        </p>
+
+        <p class="video-stats">
+            3.4M views &#183; 6 Months
+        </p>
+    </body>
+</html>
