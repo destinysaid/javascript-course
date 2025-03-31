@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--In this assignment, we will create a simple form field using all that we have learnt, 
+it will be a field for a first name, last name, email and signup button. 15mins-->
+
+<html>
+    <head>
+        <title>
+            Form field
+        </title>
+        <style>
+            .first-name, .last-name {
+                width: 141px;
+                display: inline-block;
+                margin-right: 8px;
+            }
+
+            .first-name, .last-name, .email {
+                background-color: white;
+                border-radius: 0.5rem;
+                border: 1.5px solid rgb(200, 200, 200);
+                padding: 12px 12px 12px 8px;
+            }
+            .email {
+                display: block;
+                margin: 12px 0px 12px 0px;
+                width: 316px;
+            }
+
+            .primary-btn {
+                background-color: rgb(123, 123, 240);
+                width: 338px;
+                color: white;
+                font-size: 18px;
+                font-weight: 700;
+                padding: 12px 12px 12px 8px;
+                border: 1px solid #815aec;
+                border-radius: 0.5rem;
+
+            }
+        </style>
+    </head>
+
+    <body>
+        <input class="first-name" type="text" placeholder="First name">
+        <input class="last-name" type="text" placeholder="Last name">
+        <input class="email" type="email" placeholder="Email">
+        <button class="primary-btn">Sign Up</button>
+    </body>
+</html>
