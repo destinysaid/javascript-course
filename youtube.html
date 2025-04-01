@@ -23,6 +23,8 @@
                 border-radius: 0.5rem;
                 border: 2px solid rgb(217, 216, 219);
                 color: rgb(198, 211, 206);
+                display: block;
+                margin: 0px 0px 24px 0px;
             }
 
             .search-bar::placeholder {
@@ -30,25 +32,50 @@
                 font-weight: 500;
                 font-style: normal;
             }
-            
+            .video-container {
+                display: inline-block;
+                margin: 0px 12px 0px 0px;
+                width: 300px;
+                vertical-align: top;
+            }
+
         </style>
     </head>
     
     <body>
         <input class="search-bar" type="text" placeholder="Search">
-
-        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
         
-        <p class="video-body">
-            Talking Tech and AI with Google CEO Sundar Pichai!
-        </p>
+        <div class="video-container">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            
+            <p class="video-body">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+    
+            <p class="video-author">
+                Marques Brownless
+            </p>
+    
+            <p class="video-stats">
+                3.4M views &#183; 6 Months ago
+            </p>
+        </div>
 
-        <p class="video-author">
-            Marques Brownless
-        </p>
+        <div class="video-container">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            
+            <p class="video-body">
+                Try Not To Laugh Challenge #9
+            </p>
+    
+            <p class="video-author">
+                Markiplier
+            </p>
+    
+            <p class="video-stats">
+                19M views &#183; 4 years ago
+            </p>
+        </div>
 
-        <p class="video-stats">
-            3.4M views &#183; 6 Months
-        </p>
     </body>
 </html>
